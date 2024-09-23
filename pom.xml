@@ -19,6 +19,13 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>9.0.0.Beta3</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <version>12.8.1.jre11</version>
@@ -31,7 +38,6 @@
         </dependency>
 
         <!-- tx -->
-
 
         <dependency>
             <groupId>nz.net.ultraq.thymeleaf</groupId>
@@ -51,6 +57,13 @@
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf-spring6</artifactId>
             <version>${thymeleaf.version}</version>
+        </dependency>
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
         </dependency>
 
         <dependency>
